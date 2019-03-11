@@ -1,7 +1,8 @@
 # jenkins-master
 Jenkins master with
 [`jenkins-configuration-as-code`](https://jenkins.io/projects/jcasc/)
-pre-installed together with other plugins.  See [`plugins.txt`](plugins.txt)
+pre-installed together with other plugins.  See
+[`plugins.txt`](https://github.com/Ouranosinc/jenkins-master/blob/master/plugins.txt)
 for the full list of installed plugins.
 
 For usage, see documentation for jenkins/jenkins image at
