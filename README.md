@@ -11,3 +11,12 @@ https://github.com/jenkinsci/docker/blob/master/README.md.
 This image is simply the
 [`jenkins/jenkins:lts`](https://hub.docker.com/r/jenkins/jenkins/) image with
 plugins pre-installed.
+
+## Release procedure
+
+Just tag and push and a new docker image will be built automatically.
+
+The docker tag will be the same as the git tag.
+
+New docker image will be available at
+https://hub.docker.com/r/pavics/jenkins-master/tags.
