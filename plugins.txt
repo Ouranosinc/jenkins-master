@@ -35,3 +35,11 @@ ldap  # LDAP
 # Notifications and Publishing
 email-ext  # Email Extension
 mailer  # Mailer
+
+
+### Added plugins
+
+ansicolor  # adds support for ANSI escape sequences, including color, to Console Output.
+configuration-as-code  # allows fully bootstrapped Jenkins without any manual configurations
+configuration-as-code-support
+job-dsl  # allows programmatic creation of projects using a DSL
