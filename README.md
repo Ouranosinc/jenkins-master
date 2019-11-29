@@ -25,7 +25,7 @@ We do not pin exact versions and dependencies of all the plugins so it's faster
 to get the latest on each rebuild of the docker image without having to edit
 any hardcoded committed versions before a rebuild.
 
-Reproducibility is ensure by the docker image.  Something do not work, just
+Reproducibility is ensured by the docker image.  Something do not work, just
 rollback to the previous docker image.  Need to find out what was the previous
 version of a plugin, look in the previous docker image.
 
