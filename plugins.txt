@@ -1,77 +1,45 @@
-ace-editor:1.1
-ansicolor:0.6.2
-ant:1.9
-antisamy-markup-formatter:1.5
-apache-httpcomponents-client-4-api:4.5.5-3.0
-authentication-tokens:1.3
-bouncycastle-api:2.17
-branch-api:2.1.2
-build-timeout:1.19
-cloudbees-folder:6.7
-command-launcher:1.3
-configuration-as-code:1.7
-configuration-as-code-support:1.7
-credentials:2.1.18
-credentials-binding:1.18
-display-url-api:2.3.0
-docker-commons:1.13
-docker-workflow:1.17
-durable-task:1.29
-email-ext:2.65
-git:3.9.3
-git-client:2.7.6
-github:1.29.4
-github-api:1.95
-github-branch-source:2.4.2
-git-server:1.7
-gradle:1.30
-handlebars:1.1.1
-jackson2-api:2.9.8
-jdk-tool:1.2
-job-dsl:1.72
-jquery-detached:1.2.1
-jsch:0.1.55
-junit:1.27
-ldap:1.20
-lockable-resources:2.4
-mailer:1.23
-mapdb-api:1.0.9.0
-matrix-auth:2.3
-matrix-project:1.14
-momentjs:1.1.1
-pam-auth:1.4
-pipeline-build-step:2.7
-pipeline-github-lib:1.0
-pipeline-graph-analysis:1.9
-pipeline-input-step:2.9
-pipeline-milestone-step:1.3.1
-pipeline-model-api:1.3.6
-pipeline-model-declarative-agent:1.1.1
-pipeline-model-definition:1.3.6
-pipeline-model-extensions:1.3.6
-pipeline-rest-api:2.10
-pipeline-stage-step:2.3
-pipeline-stage-tags-metadata:1.3.6
-pipeline-stage-view:2.10
-plain-credentials:1.5
-resource-disposer:0.12
-scm-api:2.3.0
-script-security:1.54
-ssh-credentials:1.15
-ssh-slaves:1.29.4
-structs:1.17
-subversion:2.12.1
-timestamper:1.9
-token-macro:2.7
-workflow-aggregator:2.6
-workflow-api:2.33
-workflow-basic-steps:2.14
-workflow-cps:2.64
-workflow-cps-global-lib:2.13
-workflow-durable-task-step:2.29
-workflow-job:2.32
-workflow-multibranch:2.21
-workflow-scm-step:2.7
-workflow-step-api:2.19
-workflow-support:3.2
-ws-cleanup:0.37
+### Suggested by Jenkins during initial Setup Wizard
+
+# Organization and Administration
+cloudbees-folder  # Folders
+antisamy-markup-formatter  # OWASP Markup Formatter
+
+# Build Features
+build-timeout  # Build Timeout
+credentials-binding  # Credentials Binding
+timestamper  # Timestamper
+ws-cleanup  # Workspace Cleanup
+
+# Build Tools
+ant  # Ant
+gradle  # Gradle
+
+# Pipelines and Continuous Delivery
+workflow-aggregator  # Pipeline
+github-branch-source  # GitHub Branch Source
+pipeline-github-lib  # Pipeline: GitHub Groovy Libraries
+pipeline-stage-view  # Pipeline: Stage View
+
+# Source Code Management
+git  # Git
+subversion  # Subversion
+
+# Distributed Builds
+ssh-slaves  # SSH Slaves
+
+# User Management and Security
+matrix-auth  # Matrix Authorization Strategy
+pam-auth  # PAM Authentication
+ldap  # LDAP
+
+# Notifications and Publishing
+email-ext  # Email Extension
+mailer  # Mailer
+
+
+### Added plugins
+
+ansicolor  # adds support for ANSI escape sequences, including color, to Console Output.
+configuration-as-code  # allows fully bootstrapped Jenkins without any manual configurations
+configuration-as-code-support
+job-dsl  # allows programmatic creation of projects using a DSL
