@@ -44,3 +44,8 @@ configuration-as-code  # allows fully bootstrapped Jenkins without any manual co
 configuration-as-code-support
 job-dsl  # allows programmatic creation of projects using a DSL
 envinject  # Environment Injector: setup a custom environment for jobs
+bouncycastle-api:2.18  # update required by ghprb plugin
+xml-job-to-job-dsl:0.1.13  # to view the DSL of existing pipelines
+ghprb:1.42.1  # GitHub PR Builder
+slack:2.42  # slack integration
+github-pullrequest:0.2.8  # variant of ghprb, with PR status update
