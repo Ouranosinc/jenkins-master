@@ -41,7 +41,6 @@ mailer  # Mailer
 
 ansicolor  # adds support for ANSI escape sequences, including color, to Console Output.
 configuration-as-code  # allows fully bootstrapped Jenkins without any manual configurations
-configuration-as-code-support
 job-dsl  # allows programmatic creation of projects using a DSL
 envinject  # Environment Injector: setup a custom environment for jobs
 bouncycastle-api:2.18  # update required by ghprb plugin
