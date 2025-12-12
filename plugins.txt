@@ -49,3 +49,4 @@ ghprb:1.42.1  # GitHub PR Builder. Tagged to avoid potential security issue with
 slack  # slack integration
 github-pullrequest  # variant of ghprb, with PR status update
 docker-workflow   # to build and run Dockerfile from Jenkins
+throttle-concurrents  # allow setting limits per job pipelines/groups
